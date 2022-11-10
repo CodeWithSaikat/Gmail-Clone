@@ -1,0 +1,49 @@
+.rightLine {
+  border: 1px solid rgb(228, 223, 223);
+  margin: 0 20px;
+}
+.mail {
+  flex: 1;
+  padding: 0 15px;
+}
+.mail__tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(219, 217, 217);
+}
+.MuiIconButton-root {
+  width: 40px;
+  height: 40px;
+}
+.mail__bodyHeaderTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.mail__toolsLeft {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mail__bodyHeaderRight {
+  display: flex;
+  align-items: center;
+}
+.mail__bodyHeaderRight > p {
+  margin-right: 20px;
+}
+.mail__subject {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.mail__body {
+  height: 100%;
+  box-shadow: 0px 3px 10px 0px rgb(219, 233, 238);
+}
